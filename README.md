@@ -52,7 +52,7 @@ Context tokens are labelled `-100`, which PyTorch's cross-entropy ignores. The g
 | **Perplexity** | **6.73** (down from ~271 before fine-tuning) |
 | BLEU-4 | 5.19 (150 test samples) |
 
-![Results](results.png)
+![Results](results.PNG)
 
 Validation loss tracks training loss closely across all three epochs with no divergence — the model is not overfitting.
 
